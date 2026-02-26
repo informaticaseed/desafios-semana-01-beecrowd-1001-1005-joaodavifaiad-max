@@ -1,7 +1,7 @@
 """
 Beecrowd 1003 - Soma Simples
 
-Leia dois valores inteiros, no caso para variáveis A e B.
+Leiad ois valores inteiros, no caso para variáveis A e B.
 A seguir, calcule a soma entre elas e atribua à variável SOMA.
 A seguir escrever o valor desta variável.
 
@@ -15,3 +15,9 @@ de A e B.
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1003
 
 # Escreva sua solução abaixo
+A = int(input())
+B = int(input())
+
+SOMA = A + B
+
+print(f"SOMA = {SOMA}")
